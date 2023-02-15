@@ -1,0 +1,73 @@
+/* Nastavení základních stylů pro celou stránku */
+* {
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Nastavení fontu a barvy pro celou stránku */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f2f2f2;
+}
+
+/* Hlavička stránky */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Navigace */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Třída pro obrázky, které se mají zobrazit v plné velikosti */
+.full-size {
+    width: 100%;
+}
+
+/* Třída pro tlačítka */
+.btn {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Třída pro odkazy */
+.link {
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
